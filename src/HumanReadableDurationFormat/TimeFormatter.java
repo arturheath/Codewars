@@ -5,63 +5,86 @@ import java.util.Arrays;
 import java.util.List;
 
 public class TimeFormatter {
+
+    public static final int secsInMin = 60;
+    public static final int minsInHour = 60;
+    public static final int hoursInDay = 24;
+    public static final int daysInYear = 365;
+
+    public static int countYears(int secs){
+        return secs / secsInMin / minsInHour / hoursInDay / daysInYear;
+    }
+
+    public static int countDays(int secs){
+        return secs / secsInMin / minsInHour / hoursInDay;
+    }
+
+    public static int countHours(int secs){
+        return secs / secsInMin / minsInHour;
+    }
+
+    public static int countMinutes(int secs){
+        return secs / secsInMin;
+    }
+
+    public static int getSecondsInYear(int years){
+        return years * secsInMin * minsInHour * hoursInDay * daysInYear;
+    }
+
+    public static int getSecondsInDay(int days){
+        return days * secsInMin * minsInHour * hoursInDay;
+    }
+
+    public static int getSecondsInHour(int hours){
+        return hours * secsInMin * minsInHour;
+    }
+
+    public static int getSecondsInMinute(int minutes){
+        return minutes * secsInMin;
+    }
+
     public static String formatDuration(int seconds) {
         if (seconds == 0) return "now";
 
         int years;
-        int months;
         int days;
         int hours;
         int minutes;
-        int secsInMin = 60;
-        int minsInHour = 60;
-        int hoursInDay = 24;
-        int daysInMonth = 30;
-        int monthsInYear = 12;
 
-        List<String> timeNames = Arrays.asList("year", "month", "day", "hour", "minute", "second");
+        List<String> timeNames = Arrays.asList("year", "day", "hour", "minute", "second");
         List<Integer> time = new ArrayList<>();
 
-        years = seconds / secsInMin / minsInHour / hoursInDay / daysInMonth / monthsInYear;
+        years = countYears(seconds);
         time.add(years);
         if (years == 0){
-            months = seconds / secsInMin / minsInHour / hoursInDay / daysInMonth;
-            time.add(months);
-        } else {
-            seconds = seconds - years * secsInMin * minsInHour * hoursInDay * daysInMonth * monthsInYear;
-            months = seconds / secsInMin / minsInHour / hoursInDay / daysInMonth;
-            time.add(months);
-        }
-
-        if (months == 0){
-            days = seconds / secsInMin / minsInHour / hoursInDay;
+            days = countDays(seconds);
             time.add(days);
         } else {
-            seconds = seconds - months * secsInMin * minsInHour * hoursInDay * daysInMonth;
-            days = seconds / secsInMin / minsInHour / hoursInDay;
+            seconds = seconds - getSecondsInYear(years);
+            days = countDays(seconds);
             time.add(days);
         }
 
         if (days == 0){
-            hours = seconds / secsInMin / minsInHour;
+            hours = countHours(seconds);
             time.add(hours);
         } else {
-            seconds = seconds - days * secsInMin / minsInHour / hoursInDay;
-            hours = seconds / secsInMin / minsInHour;
+            seconds = seconds - getSecondsInDay(days);
+            hours = countHours(seconds);
             time.add(hours);
         }
 
         if (hours == 0){
-            minutes = seconds / secsInMin;
+            minutes = countMinutes(seconds);
             time.add(minutes);
         } else {
-            seconds = seconds - hours * secsInMin * minsInHour;
-            minutes = seconds / secsInMin;
+            seconds = seconds - getSecondsInHour(hours);
+            minutes = countMinutes(seconds);
             time.add(minutes);
         }
 
         if (minutes != 0){
-            seconds = seconds - minutes * secsInMin;
+            seconds = seconds - getSecondsInMinute(minutes);
         }
         time.add(seconds);
 
