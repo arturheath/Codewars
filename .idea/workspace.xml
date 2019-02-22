@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="501e74b3-a1a4-4947-8212-732367bbf7de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HumanReadableDurationFormat/TimeFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HumanReadableDurationFormat/TimeFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codewars/HumanReadableDurationFormat/TimeFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codewars/HumanReadableDurationFormat/TimeFormatter.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,29 +23,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HumanReadableDurationFormat/TimeFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1802">
-              <caret line="106" column="76" lean-forward="true" selection-end-line="122" />
+            <state relative-caret-position="221">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#794#795#0" expanded="true" />
-                <element signature="e#873#874#0" expanded="true" />
-                <element signature="e#929#930#0" expanded="true" />
-                <element signature="e#1008#1009#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-                <element signature="e#1139#1140#0" expanded="true" />
-                <element signature="e#1149#1150#0" expanded="true" />
-                <element signature="e#1191#1192#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HumanReadableDurationFormat/TimeFormatterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+            <state relative-caret-position="340">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,12 +47,31 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Mixing/Mixing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Mixing/MixingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TheMillionthFibonacciKata/TheMillionthFibonacciKataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="221">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#1001#1002#0" expanded="true" />
                 <element signature="e#1088#1089#0" expanded="true" />
                 <element signature="e#1133#1134#0" expanded="true" />
@@ -94,11 +97,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/TheMillionthFibonacciKata/TheMillionthFibonacciKataTest.java" />
         <option value="$PROJECT_DIR$/src/TheMillionthFibonacciKata/TheMillionthFibonacciKata.java" />
         <option value="$PROJECT_DIR$/src/HumanReadableDurationFormat/HumanReadableDurationFormat.java" />
         <option value="$PROJECT_DIR$/src/HumanReadableDurationFormat/TimeFormatterTest.java" />
         <option value="$PROJECT_DIR$/src/HumanReadableDurationFormat/TimeFormatter.java" />
+        <option value="$PROJECT_DIR$/src/TheMillionthFibonacciKata/TheMillionthFibonacciKataTest.java" />
+        <option value="$PROJECT_DIR$/src/Mixing/MixingTest.java" />
+        <option value="$PROJECT_DIR$/src/Mixing/Mixing.java" />
       </list>
     </option>
   </component>
@@ -113,6 +118,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,12 +131,17 @@
               <item name="Codewars" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Codewars" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Mixing" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -138,7 +149,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549878595269" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550748721364" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -149,6 +160,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Mixing" />
       <recent name="HumanReadableDurationFormat" />
       <recent name="TheMillionthFibonacciKata" />
     </key>
@@ -168,13 +180,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TimeFormatterTest">
+  <component name="RunManager" selected="JUnit.MixingTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.arturheath.Main" />
       <module name="Codewars" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MixingTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Codewars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mixing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Mixing" />
+      <option name="MAIN_CLASS_NAME" value="Mixing.MixingTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -231,9 +260,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.MixingTest" />
       <item itemvalue="JUnit.TheMillionthFibonacciKataTest" />
-      <item itemvalue="JUnit.TimeFormatterTest" />
       <item itemvalue="JUnit.TheMillionthFibonacciKataTest.fib2" />
+      <item itemvalue="JUnit.TimeFormatterTest" />
     </list>
     <recent_temporary>
       <list>
@@ -255,12 +285,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TheMillionthFibonacciKataTest - 2019.02.06 at 16h 45m 48s.xml">
-      <configuration name="TheMillionthFibonacciKataTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TheMillionthFibonacciKataTest_fib2 - 2019.02.06 at 16h 49m 14s.xml">
-      <configuration name="TheMillionthFibonacciKataTest.fib2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TheMillionthFibonacciKataTest_fib2 - 2019.02.06 at 16h 49m 56s.xml">
       <configuration name="TheMillionthFibonacciKataTest.fib2" configurationId="JUnit" />
     </history-entry>
@@ -279,12 +303,24 @@
     <history-entry file="TimeFormatterTest - 2019.02.09 at 18h 33m 56s.xml">
       <configuration name="TimeFormatterTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TimeFormatterTest - 2019.02.11 at 18h 26m 49s.xml">
+      <configuration name="TimeFormatterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MixingTest - 2019.02.21 at 19h 22m 27s.xml">
+      <configuration name="MixingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MixingTest - 2019.02.21 at 19h 24m 59s.xml">
+      <configuration name="MixingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MixingTest - 2019.02.21 at 19h 30m 25s.xml">
+      <configuration name="MixingTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18305598" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22541603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -328,21 +364,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HumanReadableDurationFormat/TimeFormatterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/HumanReadableDurationFormat/TimeFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        <state relative-caret-position="221">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/HumanReadableDurationFormat/TimeFormatterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixing/MixingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TheMillionthFibonacciKata/TheMillionthFibonacciKataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="221">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#1001#1002#0" expanded="true" />
             <element signature="e#1088#1089#0" expanded="true" />
             <element signature="e#1133#1134#0" expanded="true" />
@@ -351,29 +405,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HumanReadableDurationFormat/TimeFormatter.java">
+    <entry file="file://$PROJECT_DIR$/src/Mixing/Mixing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="106" column="76" lean-forward="true" selection-end-line="122" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
         </state>
       </provider>
     </entry>
