@@ -1,4 +1,4 @@
-package Mixing;
+package StringsMix;
 
 import java.util.*;
 
@@ -8,6 +8,8 @@ public class Mixing {
         Map<String, Integer> m1 = new TreeMap<>();
         Map<String, Integer> m2 = new TreeMap<>();
 
+        // transforming s1 into a map where key is a lowercase character
+        // and value is a number of its occurrences
         for (int i = 0; i < s1.length(); i++) {
             char c = s1.charAt(i);
             if (Character.isLowerCase(c)) {
@@ -19,8 +21,11 @@ public class Mixing {
                 }
             }
         }
+        // removing those keys where value is < 2
         m1.entrySet().removeIf(entry -> entry.getValue() < 2);
 
+        // transforming s2 into a map where key is a lowercase character
+        // and value is a number of its occurrences
         for (int i = 0; i < s2.length(); i++) {
             char c = s2.charAt(i);
             if (Character.isLowerCase(c)) {
@@ -32,11 +37,18 @@ public class Mixing {
                 }
             }
         }
+        // removing those keys where value is < 2
         m2.entrySet().removeIf(entry -> entry.getValue() < 2);
 
+        // list that will contain all the strings that will then become an outcome string
+        // now list due it is easier to sort
         List<String> list = new ArrayList<>();
 
-        for (Map.Entry<String, Integer> entry : m1.entrySet()) {
+        // comparing values for the same keys of both maps while iterating through map1
+        // adding the composed string to the list, removing passed elements from both maps
+        Iterator<Map.Entry<String, Integer>> iterator1 = m1.entrySet().iterator();
+        while (iterator1.hasNext()){
+            Map.Entry<String, Integer> entry = iterator1.next();
             String m1key = entry.getKey();
             int m1value = entry.getValue();
             String temp = "";
@@ -49,15 +61,16 @@ public class Mixing {
                 } else {
                     temp += "=:" + String.join("", Collections.nCopies(m1value, m1key));
                 }
-                m1.remove(m1key);
+                iterator1.remove();
                 m2.remove(m1key);
             } else {
                 temp += "1:" + String.join("", Collections.nCopies(m1value, m1key));
-                m1.remove(m1key);
+                iterator1.remove();
             }
             list.add(temp);
         }
 
+        // taking the strings that are left in map2
         for (Map.Entry<String, Integer> entry : m2.entrySet()) {
             String m2key = entry.getKey();
             int m2value = entry.getValue();
@@ -65,14 +78,15 @@ public class Mixing {
             list.add(temp);
         }
 
+        // sorting list in appropriate order
         Collections.sort(list, (str1, str2) -> {
             if (str1.substring(2).length() > str2.substring(2).length()){
-                return 1;
-            } else if (str1.substring(2).length() < str2.substring(2).length()){
                 return -1;
+            } else if (str1.substring(2).length() < str2.substring(2).length()){
+                return 1;
             } else return str1.compareTo(str2);
         });
 
-        return String.join("", list);
+        return String.join("/", list);
     }
 }
