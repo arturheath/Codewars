@@ -1,4 +1,4 @@
-package TheMillionthFibonacciKata;
+package the_millionth_fibonacci_kata;
 
 import java.math.BigInteger;
 

@@ -1,4 +1,4 @@
-package HumanReadableDurationFormat;
+package human_readable_duration_format;
 
 import java.util.ArrayList;
 import java.util.Arrays;

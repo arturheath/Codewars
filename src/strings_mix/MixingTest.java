@@ -1,4 +1,4 @@
-package StringsMix;
+package strings_mix;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

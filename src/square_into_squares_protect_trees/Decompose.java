@@ -1,4 +1,4 @@
-package SquareIntoSquaresProtectTrees;
+package square_into_squares_protect_trees;
 
 import java.util.*;
 

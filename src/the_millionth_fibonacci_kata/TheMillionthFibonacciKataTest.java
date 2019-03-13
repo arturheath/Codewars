@@ -1,4 +1,4 @@
-package TheMillionthFibonacciKata;
+package the_millionth_fibonacci_kata;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -6,7 +6,6 @@ import org.junit.runners.Parameterized;
 import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.stream.Collectors;
 
 import static org.junit.Assert.*;
 

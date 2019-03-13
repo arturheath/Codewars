@@ -1,4 +1,4 @@
-package HumanReadableDurationFormat;
+package human_readable_duration_format;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

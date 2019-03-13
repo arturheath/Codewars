@@ -1,4 +1,4 @@
-package StringsMix;
+package strings_mix;
 
 import java.util.*;
 
